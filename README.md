@@ -1,0 +1,1 @@
+This repository contains a simple Java program demonstrating a common off-by-one error. The `Bug.java` file contains the erroneous code, while `BugSolution.java` provides the corrected version. The error occurs in the array traversal loop, where the loop condition `i <= arr.length` should be `i < arr.length` to avoid accessing the array beyond its bounds.
